@@ -1,10 +1,6 @@
 # CM1 - Fondamentaux et Modèles Réseaux
 
-> **Durée :** 2 heures  
-> **Semaine :** S46  
-> **Support :** Ce document est le support détaillé du cours. Pour la présentation synthétique, voir le PowerPoint associé.
-
-## 📋 Table des matières
+## Table des matières
 
 1. [Objectifs d'apprentissage](#objectifs)
 2. [Introduction aux réseaux informatiques](#introduction)
@@ -20,7 +16,7 @@
 
 ---
 
-## 🎯 Objectifs d'apprentissage {#objectifs}
+## Objectifs d'apprentissage {#objectifs}
 
 À l'issue de ce cours, vous serez capable de :
 
@@ -35,7 +31,7 @@
 
 ---
 
-## 🌐 Introduction aux réseaux informatiques {#introduction}
+## Introduction aux réseaux informatiques {#introduction}
 
 ### Qu'est-ce qu'un réseau informatique ?
 
@@ -92,7 +88,7 @@ Les réseaux informatiques répondent à plusieurs besoins essentiels :
 
 ---
 
-## 🗺️ Types et classifications de réseaux {#types}
+## Types et classifications de réseaux {#types}
 
 Les réseaux se classifient principalement selon leur **échelle géographique** et leur **étendue**.
 
@@ -170,12 +166,12 @@ Les réseaux se classifient principalement selon leur **échelle géographique**
 
 ### Tableau récapitulatif
 
-| Type | Portée | Zone typique | Vitesse | Exemple |
-|------|--------|--------------|---------|---------|
-| **PAN** | 0-10m | Personnel | Faible-Moyenne | Bluetooth smartphone |
-| **LAN** | 10m-1km | Bâtiment/Campus | Très élevée | Réseau entreprise |
-| **MAN** | 1-50km | Ville | Élevée | Réseau universitaire |
-| **WAN** | Illimité | Pays/Monde | Variable | Internet |
+| Type    | Portée   | Zone typique    | Vitesse        | Exemple              |
+|---------|----------|-----------------|----------------|----------------------|
+| **PAN** | 0-10m    | Personnel       | Faible-Moyenne | Bluetooth smartphone |
+| **LAN** | 10m-1km  | Bâtiment/Campus | Très élevée    | Réseau entreprise    |
+| **MAN** | 1-50km   | Ville           | Élevée         | Réseau universitaire |
+| **WAN** | Illimité | Pays/Monde      | Variable       | Internet             |
 
 ### Autres classifications
 
@@ -321,17 +317,17 @@ Combinaison de plusieurs topologies (la plus courante en pratique).
 
 ### Tableau comparatif
 
-| Topologie | Fiabilité | Coût | Complexité | Usage actuel |
-|-----------|-----------|------|------------|--------------|
-| **Bus** | Faible | Faible | Faible | Obsolète |
-| **Étoile** | Moyenne | Moyen | Faible | ⭐ Très courant |
-| **Anneau** | Moyenne | Moyen | Moyenne | Rare |
-| **Maillée** | Très élevée | Élevé | Élevée | Réseaux critiques |
-| **Hybride** | Variable | Variable | Variable | ⭐ Standard |
+| Topologie   | Fiabilité   | Coût     | Complexité | Usage actuel      |
+|-------------|-------------|----------|------------|-------------------|
+| **Bus**     | Faible      | Faible   | Faible     | Obsolète          |
+| **Étoile**  | Moyenne     | Moyen    | Faible     | Très courant      |
+| **Anneau**  | Moyenne     | Moyen    | Moyenne    | Rare              |
+| **Maillée** | Très élevée | Élevé    | Élevée     | Réseaux critiques |
+| **Hybride** | Variable    | Variable | Variable   | Standard          |
 
 ---
 
-## 📡 Supports de transmission {#supports}
+## Supports de transmission {#supports}
 
 Les supports de transmission sont les **médias physiques** permettant la circulation des données.
 
@@ -346,14 +342,14 @@ Câbles contenant plusieurs paires de fils de cuivre torsadés ensemble pour ré
 - **FTP (Foiled Twisted Pair)** : écran global
 
 **Catégories Ethernet :**
-| Catégorie | Bande passante | Vitesse max | Usage |
-|-----------|----------------|-------------|-------|
-| Cat 5 | 100 MHz | 100 Mbps | Obsolète |
-| Cat 5e | 100 MHz | 1 Gbps | Minimum actuel |
-| Cat 6 | 250 MHz | 1-10 Gbps | Standard actuel |
-| Cat 6a | 500 MHz | 10 Gbps | Professionnel |
-| Cat 7 | 600 MHz | 10 Gbps | Datacenter |
-| Cat 8 | 2000 MHz | 40 Gbps | Datacenter |
+| Catégorie | Bande passante | Vitesse max | Usage           |
+|-----------|----------------|-------------|-----------------|
+| Cat 5     | 100 MHz        | 100 Mbps    | Obsolète        |
+| Cat 5e    | 100 MHz        | 1 Gbps      | Minimum actuel  |
+| Cat 6     | 250 MHz        | 1-10 Gbps   | Standard actuel |
+| Cat 6a    | 500 MHz        | 10 Gbps     | Professionnel   |
+| Cat 7     | 600 MHz        | 10 Gbps     | Datacenter      |
+| Cat 8     | 2000 MHz       | 40 Gbps     | Datacenter      |
 
 **Connecteurs :** RJ45 (8P8C)
 
@@ -454,16 +450,16 @@ Câble utilisant la lumière pour transmettre les données à travers des fils d
 
 ### Comparaison des supports
 
-| Support | Débit max | Distance max | Coût | Sécurité | Usage |
-|---------|-----------|--------------|------|----------|-------|
-| **Cuivre UTP** | 10 Gbps | 100m | € | Moyenne | LAN standard |
-| **Fibre MM** | 100 Gbps | 2 km | €€ | Élevée | LAN/Datacenter |
-| **Fibre SM** | 100+ Gbps | 100+ km | €€€ | Élevée | WAN/Backbone |
-| **Wi-Fi** | 10 Gbps | 100m | € | Faible | LAN mobile |
+| Support        | Débit max  | Distance max | Coût | Sécurité | Usage          |
+|----------------|------------|--------------|------|----------|----------------|
+| **Cuivre UTP** | 10 Gbps    | 100m         | €    | Moyenne  | LAN standard   |
+| **Fibre MM**   | 100 Gbps   | 2 km         | €€   | Élevée   | LAN/Datacenter |
+| **Fibre SM**   | 100+ Gbps  | 100+ km      | €€€  | Élevée   | WAN/Backbone   |
+| **Wi-Fi**      | 10 Gbps    | 100m         | €    | Faible   | LAN mobile     |
 
 ---
 
-## 🏗️ Le modèle OSI {#modele-osi}
+## Le modèle OSI {#modele-osi}
 
 ### Introduction au modèle OSI
 
@@ -687,15 +683,15 @@ Le modèle **OSI (Open Systems Interconnection)** est un modèle de référence 
 
 ### Tableau récapitulatif OSI
 
-| Couche | Nom | Rôle principal | Unité | Équipement | Protocoles |
-|--------|-----|----------------|-------|------------|------------|
-| **7** | Application | Services réseau | Données | - | HTTP, FTP, DNS |
-| **6** | Présentation | Format données | Données | - | SSL/TLS, JPEG |
-| **5** | Session | Gestion sessions | Données | - | NetBIOS, RPC |
-| **4** | Transport | Bout en bout | Segment | - | TCP, UDP |
-| **3** | Réseau | Routage | Paquet | Routeur | IP, ICMP |
-| **2** | Liaison | Trame locale | Trame | Switch | Ethernet, Wi-Fi |
-| **1** | Physique | Bits | Bit | Hub, Câbles | 10Base-T, Fibre |
+| Couche | Nom          | Rôle principal   | Unité   | Équipement  | Protocoles      |
+|--------|--------------|------------------|---------|-------------|-----------------|
+| **7**  | Application  | Services réseau  | Données | -           | HTTP, FTP, DNS  |
+| **6**  | Présentation | Format données   | Données | -           | SSL/TLS, JPEG   |
+| **5**  | Session      | Gestion sessions | Données | -           | NetBIOS, RPC    |
+| **4**  | Transport    | Bout en bout     | Segment | -           | TCP, UDP        |
+| **3**  | Réseau       | Routage          | Paquet  | Routeur     | IP, ICMP        |
+| **2**  | Liaison      | Trame locale     | Trame   | Switch      | Ethernet, Wi-Fi |
+| **1**  | Physique     | Bits             | Bit     | Hub, Câbles | 10Base-T, Fibre |
 
 ---
 
@@ -850,16 +846,16 @@ OSI (7 couches)              TCP/IP (4 couches)
 
 ### Comparaison détaillée
 
-| Aspect | Modèle OSI | Modèle TCP/IP |
-|--------|-----------|---------------|
-| **Nombre de couches** | 7 | 4 |
-| **Type** | Modèle théorique | Suite de protocoles |
-| **Développement** | ISO (1980s) | DARPA/DoD (1970s) |
-| **Usage** | Référence pédagogique | Implémentation réelle |
-| **Flexibilité** | Rigide, bien défini | Plus flexible |
-| **Séparation** | Claire entre couches | Moins stricte |
-| **Adoption** | Référence universelle | Standard Internet |
-| **Protocoles** | Indépendant des protocoles | Protocoles spécifiques |
+| Aspect                 | Modèle OSI                  | Modèle TCP/IP           |
+|------------------------|-----------------------------|-------------------------|
+| **Nombre de couches**  | 7                           | 4                       |
+| **Type**               | Modèle théorique            | Suite de protocoles     |
+| **Développement**      | ISO (1980s)                 | DARPA/DoD (1970s)       |
+| **Usage**              | Référence pédagogique       | Implémentation réelle   |
+| **Flexibilité**        | Rigide, bien défini         | Plus flexible           |
+| **Séparation**         | Claire entre couches        | Moins stricte           |
+| **Adoption**           | Référence universelle       | Standard Internet       |
+| **Protocoles**         | Indépendant des protocoles  | Protocoles spécifiques  |
 
 ### Avantages du modèle OSI
 
@@ -914,7 +910,7 @@ Ce modèle est pratique car il :
 
 ---
 
-## 📦 Encapsulation et désencapsulation {#encapsulation}
+## Encapsulation et désencapsulation {#encapsulation}
 
 ### Principe de l'encapsulation
 
@@ -930,38 +926,46 @@ Chaque couche :
 ### Processus d'encapsulation (envoi)
 
 ```
-APPLICATION (Couche 7)
+APPLICATION         (Couche 7)       [        Données        ]
+
+     ↓                   ↓                       ↓
+
+PRESENTATION        (Couche 6)       [        Données        ]
+
+     ↓                   ↓                       ↓
+
+SESSION             (Couche 5)       [        Données        ]
+
+     ↓                   ↓                       ↓
+
+TRANSPORT           (Couche 4)       [En-tête TCP/UDP][Données]                         ←   SEGMENT
+  
+     ↓                   ↓                       ↓
+
+RÉSEAU              (Couche 3)       [En-tête IP][En-tête TCP][Données]                 ←   PAQUET
+
+     ↓                   ↓                       ↓
+
+LIAISON             (Couche 2)       [En-tête Ethernet][En-tête IP][TCP][Données][FCS] ←   TRAME
+   
+     ↓                   ↓                       ↓
+
+PHYSIQUE            (Couche 1)        01010101000111100011010010010001011010101...     ←    BITS
+
     ↓
-[        Données        ]
-    ↓
-TRANSPORT (Couche 4)
-    ↓
-[En-tête TCP/UDP][Données] ← SEGMENT
-    ↓
-RÉSEAU (Couche 3)
-    ↓
-[En-tête IP][En-tête TCP][Données] ← PAQUET
-    ↓
-LIAISON (Couche 2)
-    ↓
-[En-tête Ethernet][En-tête IP][TCP][Données][FCS] ← TRAME
-    ↓
-PHYSIQUE (Couche 1)
-    ↓
-01010101010101... ← BITS
-    ↓
+ 
 Support physique
 ```
 
 ### Unités de données par couche
 
-| Couche | Nom OSI | Unité de données (PDU) | Nom commun |
-|--------|---------|------------------------|------------|
-| 7-5 | Application-Session | Données | Données |
-| 4 | Transport | TPDU | **Segment** (TCP) ou **Datagramme** (UDP) |
-| 3 | Réseau | Paquet | **Paquet** |
-| 2 | Liaison | Trame | **Trame** (Frame) |
-| 1 | Physique | - | **Bits** |
+| Couche | Nom OSI             | Unité de données (PDU)  | Nom commun                                 |
+|--------|---------------------|-------------------------|--------------------------------------------|
+| 7-5    | Application-Session | Données                 | Données                                    |
+| 4      | Transport           | TPDU                    |  **Segment** (TCP) ou **Datagramme** (UDP) |
+| 3      | Réseau              | Paquet                  | **Paquet**                                 |
+| 2      | Liaison             | Trame                   | **Trame** (Frame)                          |
+| 1      | Physique            | -                       | **Bits**                                   |
 
 ### Détail des en-têtes
 
@@ -1066,7 +1070,7 @@ Couche 1 (Physique) : Bits sur le câble
 
 ---
 
-## ✏️ Exercices d'auto-évaluation {#exercices}
+## Exercices d'auto-évaluation {#exercices}
 
 ### Exercice 1 : Classification des réseaux
 
@@ -1077,13 +1081,6 @@ Classez les réseaux suivants (PAN, LAN, MAN, WAN) :
 4. Réseau Wi-Fi d'un café
 5. Internet
 
-**Réponses :**
-1. PAN (courte portée, personnel)
-2. MAN (échelle métropolitaine)
-3. WAN (intercontinental)
-4. LAN (local, un seul site)
-5. WAN (mondial)
-
 ### Exercice 2 : Topologies réseau
 
 Pour chaque situation, proposez la topologie la plus adaptée :
@@ -1091,22 +1088,12 @@ Pour chaque situation, proposez la topologie la plus adaptée :
 2. Réseau d'un petit bureau de 10 postes
 3. Réseau d'une entreprise multi-sites avec hiérarchie
 
-**Réponses :**
-1. Maillée (redondance maximale)
-2. Étoile (simple, économique)
-3. Hybride/Hiérarchique (flexibilité)
-
 ### Exercice 3 : Supports de transmission
 
 Quel support choisir pour :
 1. Connexion entre deux bâtiments distants de 500m sans interférence EM
 2. Connexion bureau standard, 50m, 1 Gbps
 3. Backbone entre datacenters distants de 80 km
-
-**Réponses :**
-1. Fibre multimode (distance, immunité EM)
-2. Câble Cat 6 (coût, suffisant)
-3. Fibre monomode (longue distance, haut débit)
 
 ### Exercice 4 : Modèle OSI - Attribution des couches
 
@@ -1118,32 +1105,15 @@ Pour chaque élément, indiquez la couche OSI :
 5. Port TCP 443
 6. Adresse IP
 
-**Réponses :**
-1. Couche 2 (Liaison)
-2. Couche 3 (Réseau)
-3. Couche 7 (Application)
-4. Couche 1 (Physique)
-5. Couche 4 (Transport)
-6. Couche 3 (Réseau)
-
 ### Exercice 5 : Protocoles et couches
 
 Associez les protocoles aux couches OSI correctes :
 - TCP, Ethernet, DNS, IP, HTTP, ICMP, FTP, ARP
 
-**Réponses :**
-- Couche 2 : Ethernet, ARP
-- Couche 3 : IP, ICMP
-- Couche 4 : TCP
-- Couche 7 : DNS, HTTP, FTP
-
 ### Exercice 6 : Encapsulation
 
 Dans quel ordre les en-têtes sont-ils ajoutés lors de l'envoi d'un email ?
 - En-tête IP, En-tête SMTP, En-tête TCP, En-tête Ethernet
-
-**Réponse :**
-En-tête SMTP (C7) → TCP (C4) → IP (C3) → Ethernet (C2)
 
 ### Exercice 7 : TCP vs UDP
 
@@ -1154,23 +1124,9 @@ Pour chaque application, indiquez si TCP ou UDP est plus approprié :
 4. Jeu en ligne (FPS)
 5. Requête DNS
 
-**Réponses :**
-1. TCP (fiabilité cruciale)
-2. UDP (temps réel prioritaire)
-3. TCP (intégrité des pages)
-4. UDP (faible latence)
-5. UDP (requête simple et rapide)
-
 ### Exercice 8 : Dépannage par couches
 
 Un utilisateur ne peut pas accéder à Internet. Dans quel ordre testeriez-vous les couches OSI ?
-
-**Réponse :**
-1. **Couche 1** : Câble branché ? LED de la carte réseau ?
-2. **Couche 2** : Adresse MAC visible ? Switch fonctionne ?
-3. **Couche 3** : Adresse IP configurée ? Ping de la passerelle ?
-4. **Couche 4** : Ports ouverts ? Firewall ?
-5. **Couche 7** : DNS fonctionne ? Navigateur correct ?
 
 ---
 
@@ -1243,14 +1199,67 @@ Un utilisateur ne peut pas accéder à Internet. Dans quel ordre testeriez-vous 
 
 ✅ **Désencapsulation** : Retrait d'en-têtes couche par couche (réception)
 
-### Préparation au TP1
-
-Le prochain TP portera sur la configuration réseau de base. Assurez-vous de bien comprendre :
-- La différence entre adresse IP et adresse MAC
-- Le rôle de chaque couche du modèle OSI
-- Les commandes de base (ping, ipconfig/ifconfig)
-
 ---
+
+## Correction des exercices d'auto-évaluation {#corrige_exercices}
+
+### Exercice 1 : Classification des réseaux
+
+1. PAN (courte portée, personnel)
+2. MAN (échelle métropolitaine)
+3. WAN (intercontinental)
+4. LAN (local, un seul site)
+5. WAN (mondial)
+
+### Exercice 2 : Topologies réseau
+
+1. Maillée (redondance maximale)
+2. Étoile (simple, économique)
+3. Hybride/Hiérarchique (flexibilité)
+
+### Exercice 3 : Supports de transmission
+
+1. Fibre multimode (distance, immunité EM)
+2. Câble Cat 6 (coût, suffisant)
+3. Fibre monomode (longue distance, haut débit)
+
+### Exercice 4 : Modèle OSI - Attribution des couches
+
+1. Couche 2 (Liaison)
+2. Couche 3 (Réseau)
+3. Couche 7 (Application)
+4. Couche 1 (Physique)
+5. Couche 4 (Transport)
+6. Couche 3 (Réseau)
+
+### Exercice 5 : Protocoles et couches
+
+- Couche 2 : Ethernet, ARP
+- Couche 3 : IP, ICMP
+- Couche 4 : TCP
+- Couche 7 : DNS, HTTP, FTP
+
+### Exercice 6 : Encapsulation
+
+En-tête SMTP (C7) → TCP (C4) → IP (C3) → Ethernet (C2)
+
+### Exercice 7 : TCP vs UDP
+
+1. TCP (fiabilité cruciale)
+2. UDP (temps réel prioritaire)
+3. TCP (intégrité des pages)
+4. UDP (faible latence)
+5. UDP (requête simple et rapide)
+
+### Exercice 8 : Dépannage par couches
+
+1. **Couche 1** : Câble branché ? LED de la carte réseau ?
+2. **Couche 2** : Adresse MAC visible ? Switch fonctionne ?
+3. **Couche 3** : Adresse IP configurée ? Ping de la passerelle ?
+4. **Couche 4** : Ports ouverts ? Firewall ?
+5. **Couche 7** : DNS fonctionne ? Navigateur correct ?
+
+------
 
 ## 🔄 Prochaine session
 
